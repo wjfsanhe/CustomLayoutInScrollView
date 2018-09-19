@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jason.myscollanitationdemo.MyScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jason.myscollanitationdemo.MyLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/timg2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/share_weixin_up"
+                lyl:anitation_alpha="true"
+                lyl:anitation_scaleX="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="静夜思\n作者：李白\n床前明月光，疑是地上霜。\n举头望明月，低头思故乡。"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                lyl:anitation_alpha="true"
+                lyl:anitation_translation="bottom"
+                lyl:bgColorEnd="#FF00FF"
+                lyl:bgColorStart="#7EB445" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:background="@drawable/discount"
+                lyl:anitation_alpha="true"
+                lyl:anitation_translation="left|bottom" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="念奴娇·赤壁怀古\n
+                作者：苏轼\n
+                大江东去，浪淘尽，千古风流人物。\n
+                故垒西边，人道是，三国周郎赤壁。\n
+                乱石穿空，惊涛拍岸，卷起千堆雪。\n
+                江山如画，一时多少豪杰。\n
+                遥想公瑾当年，小乔初嫁了，雄姿英发。\n
+                羽扇纶巾，谈笑间，樯橹灰飞烟灭。\n
+                故国神游，多情应笑我，早生华发。\n
+                人生如梦，一尊还酹江月。"
+                android:textSize="17dp"
+                android:gravity="center"
+                lyl:anitation_alpha="true"
+                lyl:anitation_translation="top|right"
+                lyl:bgColorEnd="#FFFF21"
+                lyl:bgColorStart="#21FF21" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_head_classtwo_high"
+                lyl:anitation_alpha="true"
+                lyl:anitation_translation="top" />
+        </com.jason.myscollanitationdemo.MyLinearLayout>
+
+    </com.jason.myscollanitationdemo.MyScrollView>
+</LinearLayout>
